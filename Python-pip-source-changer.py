@@ -39,7 +39,7 @@ def platformSelect():
         mkdir(path)
         mkfile(path + '/pip.conf')
     else:
-        print("System type: " + systype)
+        print("System type: " + systype + " Not Support!")
 
 
 if __name__ == "__main__":
